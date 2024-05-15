@@ -14,6 +14,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
+    <!-- sidebar  -->
+    <div class="sidebar">
+        <i class="fa-solid fa-xmark sideclose"></i>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#arrivals">New Arrival</a></li>
+            <li><a href="#wanted">Most Wanted</a></li>
+            <li><a href="javascript:void(0)">Collections</a></li>
+            <li><a href="javascript:void(0)">Contact Us</a></li>
+        </ul>
+    </div>
     <!-- Alert -->
     <div class="alert">
         <p class="alert__content">
@@ -22,14 +33,19 @@
     </div>
     <!-- Navbar  -->
     <div class="navbar">
-        <h1>Nostra</h1>
+        <h1>
+            <a href="index.html" style="text-decoration: none;">Nostra</a>
+        </h1>
         <ul>
-            <li><a href="javascript:void(0)">Home</a></li>
-            <li><a href="javascript:void(0)">New Arrival</a></li>
-            <li><a href="javascript:void(0)">Most Wanted</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#arrivals">New Arrival</a></li>
+            <li><a href="#wanted">Most Wanted</a></li>
             <li><a href="javascript:void(0)">Collections</a></li>
             <li><a href="javascript:void(0)">Contact Us</a></li>
         </ul>
+        <div class="toggle">
+            <i class="fa-solid fa-bars"></i>
+        </div>
     </div>
     <!-- slider  -->
     <div class="slider">
@@ -122,7 +138,7 @@
         </div>
     </div>
     <!-- new arrivals -->
-    <div class="arrivals">
+    <div class="arrivals" id="arrivals">
         <h2>New Arrivals</h2>
         <div class="arrivals__boxes">
             <div class="arrivals__box">
@@ -152,7 +168,7 @@
         </div>
     </div>
     <!-- Wanted  -->
-    <div class="wanted">
+    <div class="wanted" id="wanted">
         <h2>Most Wanted</h2>
         <div class="wanted__boxes">
             <div class="wanted__box">
