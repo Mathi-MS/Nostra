@@ -53,6 +53,12 @@
 .collections .collections__rightbox .collections__rightimg img{
     width:100%;
 }
+.collections .collections__rightboxes h3{
+    text-align: center; 
+    width: 100%; 
+    padding: 20px 0px 0px 0px; 
+    display: none;
+}
 
 @media(max-width:990px){
     .collections {
