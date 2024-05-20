@@ -40,3 +40,19 @@ toggle.addEventListener("click",function () {
 sideclose.addEventListener("click",function () {
     sidebar.style.marginLeft="-100%"
 })
+
+//heart
+var heart = document.querySelectorAll(".heart")
+heart.forEach(function(el) {
+        var empty = el.querySelector(".empty")
+        var fill = el.querySelector(".fill")
+        empty.addEventListener("click",function () {
+            empty.style.display="none"
+            fill.style.display="block"
+        })
+        fill.addEventListener("click",function () {
+            empty.style.display="block"
+            fill.style.display="none"
+        })
+    }
+)

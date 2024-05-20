@@ -321,14 +321,14 @@ body::-webkit-scrollbar{
     color:#F44336;
     display: none;
 }
-.wanted .heart:hover{
+/* .wanted .heart:hover{
     .fill{
         display: block;
     }
     .empty{
         display: none;
     }
-}
+} */
 /* offer  */
 .offer{
     padding: 0px 20px;
