@@ -51,6 +51,9 @@ btn.addEventListener("click",function () {
         message.value=""
         nameerror.textContent=""
         emailerror.textContent=""
+        setTimeout(() => {
+            contactpopup.style.display="none"
+        }, 2000);
     }
     else{
         contactpopup.style.display="none"
